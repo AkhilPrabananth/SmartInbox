@@ -18,7 +18,7 @@ def authenticate_gmail_api():
 # Function to start the Gmail watch for incoming emails
 def start_gmail_watch():
     service = authenticate_gmail_api()
-    topic_name = 'projects/YOUR_PROJECT_ID/topics/gmail-notifications-topic'
+    topic_name = 'projects/smartinbox-438805/topics/gmail-notifications'
 
     # Start watching Gmail for new messages in the inbox
     request = {
