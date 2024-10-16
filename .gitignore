@@ -7,14 +7,19 @@ venv/
 ENV/
 env/
 
+.venv/
+
 # Local environment variable file
 .env
 
 # Google OAuth credentials
 credentials.json
-
+client_secret.json
 # Jupyter Notebook checkpoints
+
 .ipynb_checkpoints/
 
 # Logs
 *.log
+
+getToken.py

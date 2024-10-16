@@ -3,3 +3,4 @@ uvicorn
 google-api-python-client
 google-auth
 transformers
+torch
