@@ -1,0 +1,20 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Local environment variable file
+.env
+
+# Google OAuth credentials
+credentials.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
